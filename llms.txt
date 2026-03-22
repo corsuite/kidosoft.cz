@@ -1,0 +1,33 @@
+# KidoSoft — kidosoft.cz
+
+## O firmě
+KidoSoft provozuje Jiří Bláha — IT specialista s více než 20 lety zkušeností v Plzni.
+Poskytuje IT servis, správu serverů, vývoj software a webových stránek.
+
+## Kontakt
+- Telefon: +420 605 840 362
+- Email: info@kidosoft.cz
+- Web: https://kidosoft.cz
+- IČO: 73440469
+
+## Služby
+- IT servis a opravy počítačů a notebooků
+- Správa Windows Server, Active Directory, VPN, zálohy
+- Tvorba webových stránek (PHP, HTML/CSS/JS)
+- Vývoj desktopových aplikací (Python, PySide6)
+- IT podpora pro firmy — dlouhodobá spolupráce
+- Záchrana dat z disků a paměťových karet
+- Instalace a správa účetních systémů (Pohoda, Money S3)
+- Provoz účetního cloudu přes RDP
+
+## Vlastní produkty
+- FinSuite Desktop — fakturační software pro Windows (corsuite.cz)
+
+## Oblast působení
+Plzeň a Plzeňský kraj
+
+## Dostupnost
+Pondělí–Pátek 8:00–18:00, havarijní servis 24/7
+
+## Zkušenosti
+20+ let v IT oboru, 100+ spokojených zákazníků, osobní přístup.
