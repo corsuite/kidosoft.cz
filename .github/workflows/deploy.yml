@@ -13,16 +13,13 @@ jobs:
       - name: Checkout kódu
         uses: actions/checkout@v4
 
-      - name: Deploy na Active24 přes FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      - name: Deploy na Active24 přes SFTP
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASS }}
-          local-dir: ./
-          server-dir: ${{ secrets.FTP_SERVER_DIR }}
-          exclude: |
-            **/.git*
-            **/.git*/**
-            **/node_modules/**
-            .github/**
+          local_path: ./*
+          remote_path: ${{ secrets.FTP_SERVER_DIR }}
+          sftp_only: true
+          args: '-o StrictHostKeyChecking=no'
