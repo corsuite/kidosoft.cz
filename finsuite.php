@@ -80,7 +80,7 @@ include "header.php";
       <h2 class="section-title">Jednorázová platba, doživotní licence</h2>
       <p class="section-sub">Zaplaťte jednou a používejte navždy. Rozdíl je pouze v počtu firem.</p>
     </div>
-    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:22px;max-width:900px;margin:0 auto">
+    <div class="pricing-grid-fs">
       <div class="service-card" style="text-align:center;padding:32px 24px">
         <div style="font-family:var(--fh);font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--teal);margin-bottom:8px">Basic</div>
         <div style="font-family:var(--fh);font-size:40px;font-weight:800;line-height:1">2 990 Kč</div>

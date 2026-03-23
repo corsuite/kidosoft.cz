@@ -38,18 +38,25 @@
 
 <script>
 // Hamburger menu
-document.getElementById('hamburger').addEventListener('click', function() {
-  const nav = document.querySelector('.navbar-nav');
-  const cta = document.querySelector('.navbar-cta');
-  const open = nav.style.display === 'flex';
-  if (!open) {
-    nav.style.cssText = 'display:flex;flex-direction:column;position:absolute;top:68px;left:0;right:0;background:rgba(240,253,249,.97);padding:16px 24px;border-bottom:1px solid #ccfbf1;gap:4px;';
-    cta.style.cssText = 'display:flex;flex-direction:column;position:absolute;top:calc(68px + ' + nav.scrollHeight + 'px);left:0;right:0;background:rgba(240,253,249,.97);padding:12px 24px 16px;border-bottom:1px solid #ccfbf1;';
+const hamburger = document.getElementById('hamburger');
+const nav = document.querySelector('.navbar-nav');
+const cta = document.querySelector('.navbar-cta');
+function closeMenu() {
+  nav.classList.remove('mobile-open');
+  cta.classList.remove('mobile-open');
+  hamburger.innerHTML = '<span></span><span></span><span></span>';
+}
+hamburger.addEventListener('click', function() {
+  const isOpen = nav.classList.contains('mobile-open');
+  if (isOpen) {
+    closeMenu();
   } else {
-    nav.style.display = 'none';
-    cta.style.display = 'none';
+    nav.classList.add('mobile-open');
+    cta.classList.add('mobile-open');
+    hamburger.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>';
   }
 });
+nav.querySelectorAll('a').forEach(a => a.addEventListener('click', closeMenu));
 
 // Scroll animations
 const observer = new IntersectionObserver((entries) => {

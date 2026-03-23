@@ -77,10 +77,6 @@ include "header.php";
         <div class="about-card-main">
           <h3>☁️ Účetní cloud</h3>
           <p>Pro účetní kanceláře provozuji bezpečný účetní cloud s přístupem přes zabezpečené RDP. Vaše účetní programy běží na vlastním serveru s denními zálohami.</p>
-          <div class="about-stats">
-            <div class="about-stat"><div class="about-stat-num">24/7</div><div class="about-stat-lbl">Dostupnost</div></div>
-            <div class="about-stat"><div class="about-stat-num">Denní</div><div class="about-stat-lbl">Zálohy</div></div>
-          </div>
           <p style="margin-top:16px;font-size:13px;opacity:.8">Pohoda, Money S3, Premier · Oddělené uživatelské účty · Od 1 800 Kč/měs.</p>
         </div>
       </div>

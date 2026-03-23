@@ -24,11 +24,7 @@ include "header.php";
         <div class="about-card-main">
           <h3>👋 Dobrý den</h3>
           <p>Jmenuji se Jiří Bláha a v IT pracuji více než 20 let. Opravuji počítače, spravuji firemní IT a vyvíjím software. Zakládám si na osobním přístupu, rychlé komunikaci a férovém jednání.</p>
-          <div class="about-stats">
-            <div class="about-stat"><div class="about-stat-num">20+</div><div class="about-stat-lbl">let v IT</div></div>
-            <div class="about-stat"><div class="about-stat-num">2+</div><div class="about-stat-lbl">vlastní produkty</div></div>
-            <div class="about-stat"><div class="about-stat-num">Plzeň</div><div class="about-stat-lbl">a okolí</div></div>
-          </div>
+
         </div>
       </div>
 

@@ -149,10 +149,7 @@ include "header.php";
         <div class="about-card-main">
           <h3>Jiří Bláha</h3>
           <p>V IT pracuji více než 20 let. Opravuji počítače, spravuji firemní IT a vyvíjím software. Zakládám si na osobním přístupu a férové komunikaci.</p>
-          <div class="about-stats">
-            <div class="about-stat"><div class="about-stat-num">20+</div><div class="about-stat-lbl">let v IT</div></div>
-            <div class="about-stat"><div class="about-stat-num">100+</div><div class="about-stat-lbl">spokojených zákazníků</div></div>
-          </div>
+
         </div>
       </div>
       <div class="about-text">
