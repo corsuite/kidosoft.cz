@@ -172,7 +172,7 @@ include "header.php";
 <section class="cta-section">
   <div class="container">
     <h2 class="cta-title">Potřebujete pomoct s IT?</h2>
-    <p class="cta-desc">Zavolejte nebo napište — odpovím rychle a bez závazků.</p>
+    <p class="cta-desc">Zavolejte nebo napište — odpovíme rychle a bez závazků.</p>
     <div class="cta-actions">
       <a href="tel:+420605840362" class="btn btn-white btn-lg">📞 605 840 362</a>
       <a href="/kontakt.php" class="btn btn-lg" style="color:rgba(255,255,255,.85);border:2px solid rgba(255,255,255,.3)">Napsat zprávu</a>
